@@ -1,0 +1,31 @@
+[model]
+type = 'raytrace'
+model = '../input/smf_models/generic_head.smf'
+save_file = '../exports/saves/head.json'
+scale = 4.733
+
+[triangulation]
+x = 20
+y = 20
+
+[ray_trace]
+scale = 1.0
+ray_start = [37.0, 15.55]
+ray_box_size = [14.0, 14.7]
+rotate = [-90.0, -90.0, 0.0]
+
+[isolines]
+initial_node_count = 31
+
+[simulation]
+epochs = 30000
+#epoch_steps = 1
+
+[grid]
+type = 'cubic'
+layers = 3
+k_linear = 8.97
+k_ang_90 = 1.49
+k_ang_120 = 5.14
+z_height_mult = 1.75
+#max_shrinkage = 0.5

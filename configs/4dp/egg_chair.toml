@@ -1,0 +1,24 @@
+[model]
+model = '../input/bezier_patches/egg_chair.txt'
+type = 'bezier'
+save_file = '../exports/saves/egg_chair.json'
+scale = 6.8
+
+[triangulation]
+x = 20
+y = 20
+
+[isolines]
+initial_node_count = 46
+
+[simulation]
+epochs = 30000
+
+[grid]
+type = 'cubic'
+layers = 3
+k_linear = 19.108
+k_ang_90 = 0.235
+k_ang_120 = 22.371
+z_height_mult = 1.434
+#max_shrinkage = 0.7

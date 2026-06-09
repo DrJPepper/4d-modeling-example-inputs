@@ -1,0 +1,31 @@
+[model]
+type = 'raytrace'
+model = '../input/smf_models/smfs/male_torso.smf'
+save_file = '../exports/saves/torso.json'
+scale = 1.467
+
+[triangulation]
+x = 20
+y = 20
+
+[ray_trace]
+scale = 1.0
+ray_start = [18.0, 17.0]
+ray_box_size = [55.0, 25.0]
+rotate = [-90.0, -90.0, 0.0]
+
+[isolines]
+initial_node_count = 50
+
+[simulation]
+epochs = 30000
+#epoch_steps = 1
+
+[grid]
+type = 'cubic'
+layers = 3
+k_linear = 21.49
+k_ang_90 = 0.46
+k_ang_120 = 4.51
+z_height_mult = 1.75
+max_shrinkage = 0.8

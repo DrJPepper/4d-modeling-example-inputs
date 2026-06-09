@@ -1,0 +1,24 @@
+[model]
+model = '../input/bezier_patches/patchPointsIrisPetal2.txt'
+type = 'bezier'
+save_file = '../exports/saves/iris.json'
+scale = 6.067
+
+[triangulation]
+x = 20
+y = 20
+
+[isolines]
+initial_node_count = 65
+
+[simulation]
+epochs = 30000
+
+[grid]
+type = 'cubic'
+layers = 4
+z_height_mult = 2
+k_linear = 12.521
+k_ang_90 = 4.051
+k_ang_120 = 12.517
+max_shrinkage = 0.5

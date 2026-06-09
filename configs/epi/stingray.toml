@@ -1,0 +1,21 @@
+[model]
+model = '../input/obj_models/stingray.obj'
+param_corners = [17, 3, 405, 406]
+save_file = '../exports/saves/stingray.json'
+scale = 1.6
+
+[isolines]
+initial_node_count = 57
+spline_bump_count = 4
+primary_u_value = 0.5
+u_spline_offset = 0.0
+v_spline_offset = 0.0
+
+[grid]
+z_height_mult = 1.139
+k_ang_120 = 3.5
+k_ang_90 = 3.5
+k_linear = 21.5
+
+[simulation]
+epochs = 50000

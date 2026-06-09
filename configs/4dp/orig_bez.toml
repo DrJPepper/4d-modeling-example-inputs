@@ -1,0 +1,24 @@
+[model]
+model = '../input/bezier_patches/patchPoints.txt'
+type = 'bezier'
+save_file = '../exports/saves/original_bez.json'
+scale = 0.113
+
+[triangulation]
+x = 20
+y = 20
+
+[isolines]
+initial_node_count = 84
+
+[simulation]
+epochs = 30000
+
+[grid]
+type = 'cubic'
+layers = 3
+max_shrinkage = 0.7
+z_height_mult = 3.0
+k_ang_90 = 1.675
+k_linear = 24.469
+k_ang_120 = 1.216

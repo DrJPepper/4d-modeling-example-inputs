@@ -1,0 +1,24 @@
+[model]
+model = '../input/obj_models/nefertiti.obj'
+param_corners = [160, 8, 298, 167]
+save_file = '../exports/saves/face.json'
+scale = 22.6
+
+[isolines]
+initial_node_count = 65
+spline_bump_count = 6
+primary_u_value = 0.5
+u_spline_offset = 0.0
+v_spline_offset = 0.0
+
+[grid]
+#k_linear = 24.04
+#k_ang_90 = 7.35
+#k_ang_120 = 6.52
+z_height_mult = 0.7
+k_ang_120 = 24.59
+k_ang_90 = 2.23
+k_linear = 24.57
+
+[simulation]
+epochs = 50000

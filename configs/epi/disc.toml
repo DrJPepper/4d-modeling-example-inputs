@@ -1,0 +1,22 @@
+[model]
+model = '../input/obj_models/fly_disc_remesh.obj'
+param_corners = [208, 32, 190, 304]
+save_file = '../exports/saves/disc.json'
+flip_primary = true
+scale = 0.34
+
+[simulation]
+epochs = 50000
+
+[grid]
+z_height_mult = 1.0
+k_ang_120 = 1.0
+k_ang_90 = 24.517
+k_linear = 24.344
+
+[isolines]
+initial_node_count = 65
+spline_bump_count = 10
+primary_u_value = 0.5
+u_spline_offset = 0.0
+v_spline_offset = 0.0
