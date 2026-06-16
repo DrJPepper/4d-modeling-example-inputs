@@ -1,6 +1,6 @@
 [model]
 type = 'raytrace'
-model = '../input/smf_models/head.txt'
+model = '../input/smf_models/generic_head.smf'
 save_file = '../exports/saves/head.json'
 ray_start = [37.0, 15.55]
 ray_box_size = [14.0, 14.7]

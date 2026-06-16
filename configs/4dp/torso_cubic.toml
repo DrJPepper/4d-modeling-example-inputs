@@ -1,6 +1,6 @@
 [model]
 type = 'raytrace'
-model = '../input/smf_models/smfs/male_torso.smf'
+model = '../input/smf_models/male_torso.smf'
 save_file = '../exports/saves/torso.json'
 scale = 1.467
 
